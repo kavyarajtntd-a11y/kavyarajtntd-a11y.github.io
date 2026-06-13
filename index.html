@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,89 +8,163 @@
 </head>
 <body>
 
-  <header class="hero">
-    <nav>
-      <h2>Kavya Raj</h2>
-      <div>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+<header class="hero">
+  <nav class="navbar">
+    <h2>Kavya Raj</h2>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-    <div class="hero-content">
-      <h1>Android Developer</h1>
-      <p>5+ years of experience building scalable mobile applications using Kotlin, Java, Flutter, and modern Android architecture.</p>
-      <div class="buttons">
-        <a href="#projects">View Projects</a>
-        <a href="https://github.com/kavyarajtntd-a11y" target="_blank">GitHub</a>
+  <section class="hero-content">
+    <div>
+      <p class="tag">Android Developer | Flutter Developer | AI Enthusiast</p>
+      <h1>Building scalable mobile apps with Android, Flutter, and AI.</h1>
+      <p class="hero-text">
+        Android Developer with 5+ years of experience building enterprise mobile applications using Kotlin, Java, MVVM, Clean Architecture, REST APIs, and modern Android tools.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="primary-btn">View Projects</a>
+        <a href="https://github.com/kavyarajtntd-a11y" target="_blank" class="secondary-btn">GitHub</a>
+        <a href="#contact" class="secondary-btn">Contact</a>
       </div>
     </div>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an Android Developer with 5+ years of experience in enterprise mobile application development.
-      I have worked on ERP, POS, and business applications using Kotlin, Java, MVVM, Clean Architecture, REST APIs, Room, Retrofit, and Hilt.
-    </p>
-    <p>
-      I recently completed my MSc in Artificial Intelligence and Robotics in the UK, and I am building AI-powered mobile solutions using Flutter and Gemini AI.
-    </p>
-  </section>
-
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-      <span>Kotlin</span>
-      <span>Java</span>
-      <span>Flutter</span>
-      <span>Dart</span>
-      <span>Jetpack Compose</span>
-      <span>MVVM</span>
-      <span>Clean Architecture</span>
-      <span>Room</span>
-      <span>Retrofit</span>
-      <span>Hilt</span>
-      <span>Firebase</span>
-      <span>Gemini AI</span>
-      <span>Git</span>
-      <span>CI/CD</span>
+    <div class="profile-card">
+      <div class="profile-circle">KR</div>
+      <h3>Kavya Raj</h3>
+      <p>Mobile App Developer</p>
+      <span>UK Based</span>
     </div>
   </section>
+</header>
 
-  <section id="projects">
-    <h2>Projects</h2>
+<main>
 
-    <div class="project-card">
+<section id="about" class="section">
+  <div class="section-title">
+    <p>About</p>
+    <h2>Who I Am</h2>
+  </div>
+  <div class="about-box">
+    <p>
+      I am an Android Developer with 5+ years of experience designing, developing, and maintaining enterprise mobile applications. I have worked on ERP, POS, and business applications with a strong focus on architecture, performance, and clean code.
+    </p>
+    <p>
+      I recently completed my MSc in Artificial Intelligence and Robotics in the UK, and I am now building AI-powered mobile solutions using Flutter and Gemini AI.
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-title">
+    <p>Skills</p>
+    <h2>Technical Stack</h2>
+  </div>
+
+  <div class="skills-grid">
+    <span>Kotlin</span>
+    <span>Java</span>
+    <span>Flutter</span>
+    <span>Dart</span>
+    <span>Jetpack Compose</span>
+    <span>MVVM</span>
+    <span>Clean Architecture</span>
+    <span>Room</span>
+    <span>Retrofit</span>
+    <span>Hilt</span>
+    <span>Firebase</span>
+    <span>REST APIs</span>
+    <span>Coroutines</span>
+    <span>Git</span>
+    <span>CI/CD</span>
+    <span>Gemini AI</span>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-title">
+    <p>Projects</p>
+    <h2>Featured Work</h2>
+  </div>
+
+  <div class="project-grid">
+    <article class="project-card featured">
+      <div class="project-label">Featured Project</div>
       <h3>AI Career Coach</h3>
       <p>
-        Flutter application powered by Gemini AI that analyzes CVs, compares job descriptions, generates job match scores, creates interview questions, writes cover letters, saves analysis history, and exports reports as PDFs.
+        A Flutter application powered by Gemini AI that helps job seekers analyze CVs, compare job descriptions, generate job match scores, create interview questions, write cover letters, save history, and export PDF reports.
       </p>
-      <p><strong>Tech:</strong> Flutter, Dart, Gemini AI, Hive, Dio, PDF Processing, Material 3</p>
-      <a href="https://github.com/kavyarajtntd-a11y/AI-Career-Coach-Flutter-Gemini-AI" target="_blank">View Project</a>
-    </div>
+      <div class="tech-list">
+        <span>Flutter</span>
+        <span>Dart</span>
+        <span>Gemini AI</span>
+        <span>Hive</span>
+        <span>Dio</span>
+        <span>PDF Export</span>
+      </div>
+      <a href="https://github.com/kavyarajtntd-a11y/AI-Career-Coach-Flutter-Gemini-AI" target="_blank" class="project-link">View GitHub</a>
+    </article>
 
-    <div class="project-card">
+    <article class="project-card">
       <h3>Enterprise Android ERP Applications</h3>
       <p>
-        Developed and maintained Android ERP and business applications with features including billing, inventory workflows, API integration, local database handling, and secure mobile architecture.
+        Developed Android applications supporting ERP, POS, billing, inventory workflows, reporting, offline storage, and API-driven business operations.
       </p>
-      <p><strong>Tech:</strong> Kotlin, Java, Android SDK, MVVM, Retrofit, Room, SQLite</p>
-    </div>
-  </section>
+      <div class="tech-list">
+        <span>Kotlin</span>
+        <span>Java</span>
+        <span>MVVM</span>
+        <span>Retrofit</span>
+        <span>Room</span>
+        <span>SQLite</span>
+      </div>
+    </article>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: kavyarajtntd@gmail.com</p>
+<section class="section">
+  <div class="section-title">
+    <p>Experience</p>
+    <h2>Professional Background</h2>
+  </div>
+
+  <div class="timeline-card">
+    <h3>Android Developer</h3>
+    <p>
+      5+ years of experience building enterprise-grade Android applications using Kotlin, Java, MVVM, REST APIs, local databases, and modern Android development practices.
+    </p>
+  </div>
+
+  <div class="timeline-card">
+    <h3>MSc Artificial Intelligence and Robotics</h3>
+    <p>
+      Completed postgraduate studies in the UK with focus on AI, robotics, machine learning, intelligent systems, and applied technology.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="section-title">
+    <p>Contact</p>
+    <h2>Let’s Connect</h2>
+  </div>
+
+  <div class="contact-card">
+    <p>Email: <a href="mailto:kavyarajtntd@gmail.com">kavyarajtntd@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/kavyarajtntd-a11y" target="_blank">github.com/kavyarajtntd-a11y</a></p>
-    <p>LinkedIn: Add your LinkedIn URL here</p>
-  </section>
+    <p>LinkedIn: <a href="#" target="_blank">Add your LinkedIn URL</a></p>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2026 Kavya Raj. All rights reserved.</p>
-  </footer>
+</main>
+
+<footer>
+  <p>© 2026 Kavya Raj. Built with HTML, CSS, and GitHub Pages.</p>
+</footer>
 
 </body>
 </html>
